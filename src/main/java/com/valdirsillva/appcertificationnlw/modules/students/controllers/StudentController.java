@@ -1,10 +1,10 @@
-package com.valdirsillva.appcertificationnlw.models.students.controllers;
+package com.valdirsillva.appcertificationnlw.modules.students.controllers;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.valdirsillva.appcertificationnlw.models.students.dto.StudentVerifyCertificationDTO;
-import com.valdirsillva.appcertificationnlw.models.students.useCases.VerifyIfHasCertificatiuonUseCase;
+import com.valdirsillva.appcertificationnlw.modules.students.dto.StudentVerifyCertificationDTO;
+import com.valdirsillva.appcertificationnlw.modules.students.useCases.VerifyIfHasCertificatiuonUseCase;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

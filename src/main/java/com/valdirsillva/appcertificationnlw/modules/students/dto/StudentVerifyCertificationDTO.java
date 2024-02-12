@@ -1,4 +1,4 @@
-package com.valdirsillva.appcertificationnlw.models.students.dto;
+package com.valdirsillva.appcertificationnlw.modules.students.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
