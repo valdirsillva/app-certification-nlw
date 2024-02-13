@@ -7,14 +7,14 @@ import com.valdirsillva.appcertificationnlw.modules.students.dto.StudentVerifyCe
 import com.valdirsillva.appcertificationnlw.modules.students.repositories.CertificationStudentRepository;
 
 @Service
-public class VerifyIfHasCertificatiuonUseCase {
+public class VerifyIfHasCertificationUseCase {
 
     @Autowired
     private CertificationStudentRepository certificationStudentRepository;
 
     public boolean execute(StudentVerifyCertificationDTO dto) {
-        var result = this.certificationStudentRepository.findByStudentEmailAndTechnology(dto.getEmail(),
-                dto.getTechnology());
+        var result = this.certificationStudentRepository
+                .findByStudentEmailAndTechnology(dto.getEmail(), dto.getTechnology());
 
         if (!result.isEmpty()) {
             return true;

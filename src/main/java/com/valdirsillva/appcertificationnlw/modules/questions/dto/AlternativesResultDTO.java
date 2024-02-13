@@ -1,6 +1,5 @@
 package com.valdirsillva.appcertificationnlw.modules.questions.dto;
 
-import java.util.List;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
